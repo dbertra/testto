@@ -4,8 +4,8 @@
 	"domain_consent": "consent.programme-tv.net",
 	"network_id": 228216569,
 	"timeout": {
-		"headerBiddingFetch": 100,
-		"dfpRequest": 15000,
+		"headerBiddingFetch": 12000,
+		"dfpRequest": 100,
 		"consent": 13000
 	},
 	"refreshTimer": 10000,
