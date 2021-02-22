@@ -1,0 +1,3362 @@
+{
+	"domain_name": "TeleLoisirs",
+	"domain_abbr": "tel",
+	"domain_consent": "consent.programme-tv.net",
+	"network_id": 228216569,
+	"timeout": {
+		"headerBiddingFetch": 12000,
+		"dfpRequest": 15000,
+		"consent": 13000
+	},
+	"refreshTimer": 10000,
+	"dontrefreshslot": ["Pave-Haut2-Desktop"],
+	"definedAdUnits": [],
+	"plugins": {
+		"ondemand": true,
+		"parallax": true,
+		"video": {
+			"isUpnext": true,
+			"isSticky": true,
+			"players": [
+				["HyenP6LuN", "teleloisirs_News", "Télé Loisirs News/Edito"],
+				[
+					"HJfqXoZtZ",
+					"teleloisirs_fr_plurimedia",
+					"Télé Loisirs Bande Annonce Plurimédia"
+				],
+				[
+					"Hyx5mvd4",
+					"teleloisirs_fr_wetv",
+					"Télé Loisirs Bande Annonce WE-TV"
+				],
+				[
+					"S1KAQwOV",
+					"teleloisirs_rubrique_video",
+					"Télé Loisirs Rubrique Vidéos"
+				],
+				[
+					"ZkfJNtG7L",
+					"teleloisirs_News",
+					"[Recette PUB] Télé Loisirs News/Edito"
+				],
+				[
+					"uYZRsd2tH",
+					"teleloisirs_fr_plurimedia",
+					"[Recette PUB] Télé Loisirs Bande Annonce Plurimédia"
+				],
+				[
+					"SNbO1VF0R",
+					"teleloisirs_fr_wetv",
+					"[Recette PUB] Télé Loisirs Bande Annonce WE-TV"
+				],
+				[
+					"olmVp9fwR",
+					"teleloisirs_rubrique_video",
+					"[Recette PUB] Télé Loisirs Rubrique Vidéos"
+				],
+				["pfHSrT100", "test", "tel.test - test"],
+				["jrRT6n8Hg", "Télé Loisirs Top Actu"]
+
+			],
+			"cmsid": 1969
+		}
+	},
+	"partners": {
+		"pubstack": "b8730f2b-45fc-4236-8fd8-f1fd30512630",
+		"google": {
+			"nonPersonalizeDisplay": false,
+			"nonPersonalizeVideo": false
+		},
+		"amazon": {
+			"pubID": "3279",
+			"definedAdUnits": []
+		},
+		"headerbidding": {
+			"consent": true,
+			"definedAdUnits": []
+		}
+	},
+	"ampScripts": {
+		"ampStickyAd": true,
+		"ampFlyingCarpet": false,
+		"ampConsent": true
+	},
+	"desktop": {
+		"emplacements": [
+			{
+				"type": "Pave-Haut2-Desktop",
+				"pubstack": { "adUnitName": "Pave-Haut2-Desktop" },
+				"dfp": {
+					"sizes": [
+						["fluid"],
+						[1, 1],
+						[640, 360]
+					]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "invibes",
+							"params": {
+								"placementId": "invibes_middle_programmetv",
+								"customEndpoint": "//bid2.videostep.com/Bid/VideoAdContent"
+							}
+						},
+						{
+							"bidder": "teads",
+							"params": { "placementId": 105133, "pageId": 97053 }
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_Desktop_Inread"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"params": {
+								"placement": "755b91c645611876ef83a4da5d95b798"
+							}
+						}
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[1, 1],
+								[640, 360]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Banniere-Haute" },
+				"type": "Banniere-Haute",
+				"amazon": {
+					"sizes": [
+						[728, 90],
+						[970, 250],
+						[970, 90],
+						[1000, 90],
+						[1000, 200]
+					]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "0401e280a944dd3f4c5da9afaa8cf93d"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "2db5153e2fb8e6c903bb2b487f845ec2"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_atf_mban_desktop",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-desktop-banniere-haute"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-banniere-haute"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "217821", "size": [970, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "217822", "size": [970, 90] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "217822", "size": [728, 90] }
+						},
+						{
+							"bidder": "ix",
+							"labelAll": ["home"],
+							"params": {
+								"siteId": "303209",
+								"size": [1800, 1000]
+							}
+						},
+						{
+							"bidder": "ix",
+							"labelAll": ["ros"],
+							"params": {
+								"siteId": "351311",
+								"size": [1800, 1000]
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978604,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978620,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021301,
+								"formatId": 77964
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021300,
+								"formatId": 77964
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-desktop-banniere-haute"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-banniere-haute"
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_Desktop_Billboard"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs_-_d_ban_atf_-_728x90"
+							}
+						},
+						{
+							"bidder": "proxistore",
+							"params": {
+								"website": "programme-tv.net",
+								"language": "fr"
+							}
+						},
+						{
+							"bidder": "criteo",
+							"params": { "networkId": 735 }
+						}
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[728, 90],
+								[970, 90],
+								[970, 250],
+								[1000, 90],
+								[1000, 200],
+								[1800, 1000]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Banniere-Basse" },
+				"type": "Banniere-Basse",
+				"amazon": {
+					"sizes": [[728, 90], [970, 250]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "f1515fec3a855b76ac6789d1095f6067"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "66d2bb5d4e2b6e142082742d65e488e6"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_btf_mban_desktop",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-desktop-banniere-basse"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-banniere-basse"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260294", "size": [970, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260294", "size": [970, 90] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260294", "size": [728, 90] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978608,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978624,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021301,
+								"formatId": 71760
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021300,
+								"formatId": 71760
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_HDX"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs_-_d_ban_btf_-_728x90"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-desktop-banniere-basse"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-banniere-basse"
+							}
+						},
+						{
+							"bidder": "criteo",
+							"params": { "networkId": 735 }
+						}
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[728, 90],
+								[970, 90],
+								[970, 250]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Haut" },
+				"type": "Pave-Haut",
+				"amazon": {
+					"sizes": [
+						[300, 250],
+						[300, 600],
+						[120, 600],
+						[160, 600]
+					]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "101f0fb9141a5a2039af617348848581"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "944fe272463b9da9c639b4666519cb54"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_atf_pave_desktop",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-desktop-pave-haut"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-pave-haut"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [300, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [300, 600] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [120, 600] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [160, 600] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978606,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978622,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021301,
+								"formatId": 71759
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021300,
+								"formatId": 71759
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_ATF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_paveatf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-desktop-pave-haut"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-pave-haut"
+							}
+						},
+						{
+							"bidder": "proxistore",
+							"params": {
+								"website": "programme-tv.net",
+								"language": "fr"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600],
+								[120, 600],
+								[160, 600]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Bas" },
+				"type": "Pave-Bas",
+				"amazon": {
+					"sizes": [[300, 250], [300, 600]]
+				},
+				"prebid": {
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600],
+								[120, 600],
+								[160, 600]
+							]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "66971edb14ba5550fc4b7e5867ef2c01"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "e6646c62dbf5cd1067f893e41eabf0d9"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_btf_pave_desktop",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-desktop-pave-bas"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-pave-bas"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [300, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [300, 600] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [120, 600] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [160, 600] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978610,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978626,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021301,
+								"formatId": 71761
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1021300,
+								"formatId": 71761
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_BTF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_pavebtf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-desktop-pave-bas"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-pave-bas"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Out-Of-Banner" },
+				"type": "Out-Of-Banner",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[1, 1]] } }
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Haut2" },
+				"type": "Pave-Haut2",
+				"amazon": {
+					"sizes": [[300, 250], [300, 600]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "101f0fb9141a5a2039af617348848581"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "944fe272463b9da9c639b4666519cb54"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_atf_pave_desktop",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-desktop-pave-haut2"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-pave-haut2"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978606,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978622,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_ATF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_paveatf_-_300x250"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600],
+								[120, 600],
+								[160, 600]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Bas2" },
+				"type": "Pave-Bas2",
+				"amazon": {
+					"sizes": [[300, 250], [300, 600]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "66971edb14ba5550fc4b7e5867ef2c01"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "e6646c62dbf5cd1067f893e41eabf0d9"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_btf_pave_desktop",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-desktop-pave-bas2"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-pave-bas2"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978610,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978626,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_BTF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_pavebtf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-desktop-pave-bas2"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-pave-bas2"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600],
+								[120, 600],
+								[160, 600]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Leader" },
+				"type": "Player-Leader",
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-player-leader"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-player-leader"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "4360049" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11043953" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "521671",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"startdelay": 0,
+									"minduration": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277359,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-LEADER",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					],
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Widget" },
+				"type": "Player-Widget",
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"size": [640, 480],
+								"invCode": "programme-tv.net-ros-desktop-player-widget"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-player-widget"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "9122705" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11044001" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "521672",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"startdelay": 0,
+									"minduration": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277361,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-WIDGET",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					],
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Autre" },
+				"type": "Player-Autre",
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-desktop-player-autre"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-desktop-player-autre"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "9122769" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11043905" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "512894",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"minduration": 0,
+									"startdelay": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277360,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-AUTRE",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					],
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					}
+				}
+			},
+			{
+				"type": "Emplacement-Marketing",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[750, 90]] } }
+				},
+				"pubstack": { "adUnitName": "Emplacement-Marketing" }
+			},
+			{
+				"type": "Pole-Position",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[750, 90]] } }
+				},
+				"pubstack": { "adUnitName": "Pole-Position" }
+			},
+			{
+				"type": "Partenariat_Canal",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Partenariat_Canal" }
+			},
+			{
+				"type": "Native_grille-programmes",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native_grille-programmes" }
+			},
+			{
+				"type": "Native",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native" }
+			},
+			{
+				"type": "Native-Dark",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native-Dark" }
+			}
+		]
+	},
+	"mobile": {
+		"emplacements": [
+			{
+				"pubstack": { "adUnitName": "Pave-Haut" },
+				"type": "Pave-Haut",
+				"amp": {
+					"rtc-config": {
+						"vendors": {
+							"criteo": {
+								"NETWORK_ID": 735,
+								"LINE_ITEM_RANGES": "0..9:0.01;9..50:0.05"
+							},
+							"aps": {
+								"PUB_ID": "3279",
+								"PARAMS": { "amp": "1" }
+							},
+							"IndexExchange": { "SITE_ID": "610714" }
+						}
+					},
+					"sizes": [[300, 250]]
+				},
+				"amazon": {
+					"sizes": [
+						[300, 250],
+						[300, 600],
+						[120, 600],
+						[160, 600]
+					]
+				},
+				"prebid": {
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600],
+								[1, 1]
+							]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "96d2fda4d1e2e8fe71539e83e1b8f758"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "15513501bf662650f3b2878e205323ee"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_atf_pave_mobile",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-haut"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-haut"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [300, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [300, 600] }
+						},
+						{
+							"bidder": "invibes",
+							"labelAll": ["ros"],
+							"params": {
+								"placementId": "invibes_middle_programmetv",
+								"customEndpoint": "//bid2.videostep.com/Bid/VideoAdContent"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978606,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978622,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949995,
+								"formatId": 16659
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949968,
+								"formatId": 16659
+							}
+						},
+						{
+							"bidder": "teads",
+							"labelAll": ["ros"],
+							"params": { "placementId": 105133, "pageId": 97053 }
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_ATF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_paveatf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-mobile-pave-haut"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-mobile-pave-haut"
+							}
+						},
+						{
+							"bidder": "proxistore",
+							"params": {
+								"website": "programme-tv.net",
+								"language": "fr"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Bas" },
+				"type": "Pave-Bas",
+				"amp": {
+					"rtc-config": {
+						"vendors": {
+							"criteo": {
+								"NETWORK_ID": 735,
+								"LINE_ITEM_RANGES": "0..9:0.01;9..50:0.05"
+							},
+							"aps": {
+								"PUB_ID": "3279",
+								"PARAMS": { "amp": "1" }
+							},
+							"IndexExchange": { "SITE_ID": "610716" }
+						}
+					},
+					"sizes": [[300, 250]]
+				},
+				"amazon": {
+					"sizes": [[300, 250]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "5a3fcb3fd327b8c51f343206b3037c98"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "dd96d684bec87714b53aead26b13eac3"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_btf_pave_mobile",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-bas"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-bas"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [300, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [300, 600] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978610,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978626,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949995,
+								"formatId": 16696
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949968,
+								"formatId": 16696
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_BTF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_pavebtf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-mobile-pave-bas"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-mobile-pave-bas"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600]
+						]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Out-Of-Banner" },
+				"type": "Out-Of-Banner",
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "rubicon",
+							"labellAll": ["ros"],
+							"params": {
+								"accountId": "17912",
+								"siteId": "198660",
+								"zoneId": "1841700"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labellAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949968,
+								"formatId": 93349
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"labellAll": ["ros"],
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_HDX"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labellAll": ["ros"],
+							"params": {
+								"placement": "0fb7466f7475dc345f66871862a17e7f"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"labellAll": ["ros"],
+							"params": {
+								"code": "programme-tv.net_rg_btf_banner_mobile",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "ix",
+							"labellAll": ["ros"],
+							"params": {
+								"siteId": "555414",
+								"size": [300, 100]
+							}
+						},
+						{
+							"bidder": "ix",
+							"labellAll": ["ros"],
+							"params": {
+								"siteId": "555414",
+								"size": [320, 100]
+							}
+						},
+						{
+							"bidder": "ix",
+							"labellAll": ["ros"],
+							"params": {
+								"siteId": "555414",
+								"size": [320, 50]
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-mobile-out-of-banner"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-out-of-banner"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 100],
+								[320, 100],
+								[320, 50]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Haut2" },
+				"type": "Pave-Haut2",
+				"amp": {
+					"rtc-config": {
+						"vendors": {
+							"criteo": {
+								"NETWORK_ID": 735,
+								"LINE_ITEM_RANGES": "0..9:0.01;9..50:0.05"
+							},
+							"aps": {
+								"PUB_ID": "3279",
+								"PARAMS": { "amp": "1" }
+							},
+							"IndexExchange": { "SITE_ID": "610715" }
+						}
+					},
+					"sizes": [[300, 250]]
+				},
+				"amazon": {
+					"sizes": [[300, 250]]
+				},
+				"prebid": {
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600],
+								[1, 1]
+							]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "96d2fda4d1e2e8fe71539e83e1b8f758"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "15513501bf662650f3b2878e205323ee"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_atf_pave_mobile",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-haut2"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-haut2"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "317504", "size": [300, 250] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978606,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978622,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949995,
+								"formatId": 16659
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949968,
+								"formatId": 16659
+							}
+						},
+						{
+							"bidder": "teads",
+							"labelAll": ["ros"],
+							"params": { "placementId": 105133, "pageId": 97053 }
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_ATF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_paveatf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-mobile-pave-haut2"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Bas2" },
+				"type": "Pave-Bas2",
+				"amp": {
+					"rtc-config": {
+						"vendors": {
+							"criteo": {
+								"NETWORK_ID": 735,
+								"LINE_ITEM_RANGES": "0..9:0.01;9..50:0.05"
+							},
+							"aps": {
+								"PUB_ID": "3279",
+								"PARAMS": { "amp": "1" }
+							},
+							"IndexExchange": { "SITE_ID": "610717" }
+						}
+					},
+					"sizes": [[300, 250]]
+				},
+				"amazon": {
+					"sizes": [[300, 250]]
+				},
+				"prebid": {
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600]
+							]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "5a3fcb3fd327b8c51f343206b3037c98"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "dd96d684bec87714b53aead26b13eac3"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_btf_pave_mobile",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-bas2"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-bas2"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "317505", "size": [300, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "317505", "size": [300, 600] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978610,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978626,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949995,
+								"formatId": 16696
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949968,
+								"formatId": 16696
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_BTF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_pavebtf_-_300x250"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-mobile-pave-bas2"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-mobile-pave-bas2"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Footer" },
+				"type": "Footer",
+				"amp": {
+					"rtc-config": {
+						"vendors": {
+							"criteo": {
+								"NETWORK_ID": 735,
+								"LINE_ITEM_RANGES": "0..9:0.01;9..50:0.05"
+							},
+							"aps": {
+								"PUB_ID": "3279",
+								"PARAMS": { "amp": "1" }
+							}
+						}
+					},
+					"sizes": [
+						[320, 100],
+						[320, 50]
+					]
+				},
+				"prebid": {
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[320, 100],
+								[320, 50]
+							]
+						}
+					},
+					"bids": []
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Leader" },
+				"type": "Player-Leader",
+				"prebid": {
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-player-leader"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "4360049" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11043953" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "521671",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"startdelay": 0,
+									"minduration": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277359,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-LEADER",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Widget" },
+				"type": "Player-Widget",
+				"prebid": {
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"size": [640, 480],
+								"invCode": "programme-tv.net-ros-mobile-player-autre"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"params": { "member": 8830, "size": [640, 480] }
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "9122705" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11044001" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "521672",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"startdelay": 0,
+									"minduration": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277361,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-WIDGET",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Autre" },
+				"type": "Player-Autre",
+				"prebid": {
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-player-autre"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "9122769" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11043905" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "512894",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"minduration": 0,
+									"startdelay": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277360,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-AUTRE",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Postitiel" },
+				"type": "Postitiel",
+				"prebid": {
+					"mediaTypes": { "banner": { "sizes": [[320, 480]] } },
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "2cea9b0ab2849e0dd0923e94a93b2774"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "6075560f473c49bc6687ce00a08d1b6f"
+							}
+						},
+						{
+							"bidder": "mediasquare",
+							"params": {
+								"code": "programme-tv.net_rg_mobile_inter_mobile",
+								"owner": "prisma"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-postitiel"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-postitiel"
+							}
+						},
+						{
+							"bidder": "ix",
+							"labelAll": ["home"],
+							"params": { "siteId": "326032", "size": [320, 480] }
+						},
+						{
+							"bidder": "ix",
+							"labelAll": ["ros"],
+							"params": { "siteId": "326033", "size": [320, 480] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 1145956,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 1145958,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949995,
+								"formatId": 16661
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 38329,
+								"pageId": 949968,
+								"formatId": 16661
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["home"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-hp-mobile-postitiel"
+							}
+						},
+						{
+							"bidder": "anGravity",
+							"labelAll": ["ros"],
+							"params": {
+								"member": "9124",
+								"invCode": "programme-tv.net-ros-mobile-postitiel"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					]
+				}
+			},
+			{
+				"type": "Emplacement-Marketing",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[750, 90]] } }
+				},
+				"pubstack": { "adUnitName": "Emplacement-Marketing" }
+			},
+			{
+				"type": "Pole-Position",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[750, 90]] } }
+				},
+				"pubstack": { "adUnitName": "Pole-Position" }
+			},
+			{
+				"type": "Partenariat_Canal",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Partenariat_Canal" }
+			},
+			{
+				"type": "Native_grille-programmes",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native_grille-programmes" }
+			},
+			{
+				"type": "Native",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native" }
+			},
+			{
+				"type": "Native-Dark",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native-Dark" }
+			}
+		]
+	},
+	"tablet": {
+		"emplacements": [
+			{
+				"pubstack": { "adUnitName": "Banniere-Haute" },
+				"type": "Banniere-Haute",
+				"adserveur": {},
+				"amp": {},
+				"amazon": {
+					"sizes": [[728, 90]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "adc75331c18a5b0dca83812747a7fe0b"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "b739587679c80c7a73188b20fbe9b032"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-banniere-haute"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-banniere-haute"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "276672", "size": [970, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "276672", "size": [970, 90] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "217822", "size": [728, 90] }
+						},
+						{
+							"bidder": "ix",
+							"labelAll": ["home"],
+							"params": {
+								"siteId": "303209",
+								"size": [1800, 1000]
+							}
+						},
+						{
+							"bidder": "ix",
+							"labelAll": ["ros"],
+							"params": {
+								"siteId": "351311",
+								"size": [1800, 1000]
+							}
+						},
+
+						{
+							"bidder": "ix",
+							"params": { "siteId": "217821", "size": [1000, 90] }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "217821",
+								"size": [1000, 200]
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978604,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978620,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021298,
+								"formatId": 71758
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021297,
+								"formatId": 71758
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_Desktop_Billboard"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs_-_d_ban_atf_-_728x90"
+							}
+						},
+						{
+							"bidder": "proxistore",
+							"params": {
+								"website": "programme-tv.net",
+								"language": "fr"
+							}
+						},
+						{
+							"bidder": "criteo",
+							"params": { "networkId": 735 }
+						}
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [[728, 90]]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Banniere-Basse" },
+				"type": "Banniere-Basse",
+				"adserveur": {},
+				"amp": {},
+				"amazon": {
+					"sizes": [[728, 90]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "84decb793e2954b5a8ee24afc36a0859"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "8d932d7e1962efccba86bfc8d0fcf46b"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-banniere-basse"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-banniere-basse"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260294", "size": [728, 90] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978608,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978624,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021298,
+								"formatId": 71760
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021297,
+								"formatId": 71760
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_HDX"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs_-_d_ban_btf_-_728x90"
+							}
+						},
+						{
+							"bidder": "criteo",
+							"params": { "networkId": 735 }
+						}
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [[728, 90]]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Haut" },
+				"type": "Pave-Haut",
+				"adserveur": {},
+				"amp": {},
+				"amazon": {
+					"sizes": [
+						[300, 250],
+						[300, 600],
+						[120, 600],
+						[160, 600]
+					]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "a1ed3e9f0fe032e0b30f91c2a4bbe823"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "a44c0cd5de00698535c676e46348933b"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-haut"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-haut"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260295", "size": [300, 250] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978606,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978622,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021298,
+								"formatId": 71759
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021297,
+								"formatId": 71759
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_ATF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_paveatf_-_300x250"
+							}
+						},
+						{
+							"bidder": "proxistore",
+							"params": {
+								"website": "programme-tv.net",
+								"language": "fr"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Bas" },
+				"type": "Pave-Bas",
+				"adserveur": {},
+				"amp": {},
+				"amazon": {
+					"sizes": [[300, 250], [300, 600]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "eaa0503b7ca293135263ceb028f4fb8b"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "e0c5135a7338cb11a86315ee76871c78"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-bas"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-bas"
+							}
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [300, 250] }
+						},
+						{
+							"bidder": "ix",
+							"params": { "siteId": "260296", "size": [300, 600] }
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978610,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978626,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["home"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021298,
+								"formatId": 71761
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"labelAll": ["ros"],
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274275,
+								"pageId": 1021297,
+								"formatId": 71761
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_BTF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_pavebtf_-_300x250"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Out-Of-Banner" },
+				"type": "Out-Of-Banner",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[1, 1]] } }
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Haut2" },
+				"type": "Pave-Haut2",
+				"adserveur": {},
+				"amp": {},
+				"amazon": {
+					"sizes": [[300, 250], [300, 600]]
+				},
+				"prebid": {
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600]
+							]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "a1ed3e9f0fe032e0b30f91c2a4bbe823"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "a44c0cd5de00698535c676e46348933b"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-haut2"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-haut2"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978606,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978622,
+								"position": "atf"
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_ATF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_paveatf_-_300x250"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Pave-Bas2" },
+				"type": "Pave-Bas2",
+				"adserveur": {},
+				"amp": {},
+				"amazon": {
+					"sizes": [[300, 250], [300, 600]]
+				},
+				"prebid": {
+					"bids": [
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["home"],
+							"params": {
+								"placement": "eaa0503b7ca293135263ceb028f4fb8b"
+							}
+						},
+						{
+							"bidder": "adyoulike",
+							"labelAll": ["ros"],
+							"params": {
+								"placement": "e0c5135a7338cb11a86315ee76871c78"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["home"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-hp-mobile-pave-bas2"
+							}
+						},
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-pave-bas2"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["home"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978610,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "rubicon",
+							"labelAll": ["ros"],
+							"params": {
+								"accountId": 17912,
+								"siteId": 198660,
+								"zoneId": 978626,
+								"position": "btf"
+							}
+						},
+						{
+							"bidder": "triplelift",
+							"params": {
+								"inventoryCode": "Prisma_TeleLoisirs_Prebid_BTF"
+							}
+						},
+						{
+							"bidder": "onemobile",
+							"params": {
+								"dcn": "8a96942301727280d734843eebee000c",
+								"pos": "teleloisirs-_d_pavebtf_-_300x250"
+							}
+						},
+						{ "bidder": "criteo", "params": { "networkId": 735 } }
+					],
+					"mediaTypes": {
+						"banner": {
+							"sizes": [
+								[300, 250],
+								[300, 600]
+							]
+						}
+					}
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Leader" },
+				"type": "Player-Leader",
+				"prebid": {
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-player-leader"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "4360049" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11043953" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "521671",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"startdelay": 0,
+									"minduration": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277359,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-LEADER",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Widget" },
+				"type": "Player-Widget",
+				"prebid": {
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"size": [640, 480],
+								"invCode": "programme-tv.net-ros-mobile-player-widget"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "9122705" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11044001" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "521672",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"startdelay": 0,
+									"minduration": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277361,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-WIDGET",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"pubstack": { "adUnitName": "Player-Autre" },
+				"type": "Player-Autre",
+				"prebid": {
+					"mediaTypes": {
+						"video": {
+							"context": "instream",
+							"playerSize": [[640, 480]],
+							"mimes": ["video/mp4"],
+							"protocols": [3, 6, 7, 8],
+							"playbackmethod": [2],
+							"maxduration": 30,
+							"linearity": 1,
+							"api": [1, 2]
+						}
+					},
+					"bids": [
+						{
+							"bidder": "anPrisma",
+							"labelAll": ["ros"],
+							"params": {
+								"member": 8830,
+								"invCode": "programme-tv.net-ros-mobile-player-autre"
+							}
+						},
+						{
+							"bidder": "freewheel-ssp",
+							"params": { "zoneId": "9122769" }
+						},
+						{
+							"bidder": "fw_epb_ssp",
+							"params": { "zoneId": "11043905" }
+						},
+						{
+							"bidder": "ix",
+							"params": {
+								"siteId": "512894",
+								"size": [640, 480],
+								"video": {
+									"mimes": [
+										"video/mp4",
+										"video/mpeg",
+										"application/javascript"
+									],
+									"minduration": 0,
+									"startdelay": 0,
+									"maxduration": 30,
+									"protocols": [2, 3, 5, 6],
+									"api": [1, 2]
+								}
+							}
+						},
+						{
+							"bidder": "smartadserver",
+							"params": {
+								"domain": "https://prg.smartadserver.com",
+								"siteId": 274276,
+								"pageId": 1277360,
+								"formatId": 33226,
+								"video": { "protocol": 3, "startDelay": 1 }
+							}
+						},
+						{
+							"bidder": "adot",
+							"params": {
+								"placementId": "PIA-TLS-VIDEO-AUTRE",
+								"video": {
+									"mimes": ["video/mp4"],
+									"protocols": [2, 3, 6, 7, 8],
+									"instreamContext": "pre-roll"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"type": "Emplacement-Marketing",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[750, 90]] } }
+				},
+				"pubstack": { "adUnitName": "Emplacement-Marketing" }
+			},
+			{
+				"type": "Pole-Position",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": [[750, 90]] } }
+				},
+				"pubstack": { "adUnitName": "Pole-Position" }
+			},
+			{
+				"type": "Partenariat_Canal",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Partenariat_Canal" }
+			},
+			{
+				"type": "Native_grille-programmes",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native_grille-programmes" }
+			},
+			{
+				"type": "Native",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native" }
+			},
+			{
+				"type": "Native-Dark",
+				"prebid": {
+					"bids": [],
+					"mediaTypes": { "banner": { "sizes": ["fluid"] } }
+				},
+				"pubstack": { "adUnitName": "Native-Dark" }
+			}
+		]
+	}
+}
