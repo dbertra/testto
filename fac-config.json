@@ -1,0 +1,4846 @@
+{
+domain_name: "FemmeActuelle",
+domain_abbr: "fac",
+domain_consent: "consent.femmeactuelle.fr",
+network_id: 228216569,
+timeout: {
+headerBiddingFetch: 2000,
+dfpRequest: 5000,
+consent: 3000
+},
+refreshTimer: 10000,
+dontrefreshslot: [
+"Pave-Haut2-Desktop"
+],
+definedAdUnits: [ ],
+plugins: {
+ondemand: true,
+parallax: true,
+video: {
+isUpnext: true,
+isSticky: true,
+players: [
+[
+"rkYfiMAu",
+"femmeactuelle_fr",
+"FemmeActuelle.fr - Player Article Principal"
+],
+[
+"BkWkQKZUu",
+"femmeactuelle_fr_widget_matvpratique"
+],
+[
+"BJgrAGRd",
+"femmeactuelle_fr_gruner",
+"FemmeActuelle.fr - Player G+J"
+],
+[
+"BJhYym0O",
+"femmeactuelle_fr_playerFACV"
+],
+[
+"r1oYUgsqg",
+"femmeactuelle_tunnel_play",
+"FemmeActuelle.fr - Player Tunnel Video"
+],
+[
+"HJekN9zyg",
+"femmeactuelle_cerise",
+"FemmeActuelle.fr - Player Cerise"
+],
+[
+"SJeJQTMCO",
+"femmeactuelle_fr_ArticleEmbed",
+"FemmeActuelle.fr - Player Article Embed"
+],
+[
+"Sk9c9u2JG",
+"femmeactuelle_fr_widget_matvpratique",
+"FemmeActuelle.fr - Player Widget"
+],
+[
+"rJrKd8CoG",
+"femmeactuelle_diapos_widget",
+"FemmeActuelle.fr - DIAPO - Player Widget (milieu de page)"
+],
+[
+"ByePwbm0O",
+"cuisineactuelle_fr_embed"
+],
+[
+"H1lyKZLO",
+"cuisineactuelle_fr_widget_matvpratique"
+],
+[
+"B1IOLhDyx",
+"cuisineactuelle_fr_cerise"
+],
+[
+"BJxeol7Cu",
+"cuisineactuelle_fr"
+],
+[
+"SklV4W70d",
+"cuisineactuelle_fr_playerArticleEmbed"
+],
+[
+"r1xSFNyVQ",
+"cuisineactuelle_fr-diapos"
+],
+[
+"HJWIZTZxz",
+"cuisineactuelle_fr_widget_matvpratique"
+],
+[
+"BkvyzQAO",
+"cuisineactuelle_fr_Gruner"
+],
+[
+"B1hzfNQSG",
+"beaute-addict"
+],
+[
+"HnOM6Megf",
+"FemmeActuelle.fr - Player Top Actu"
+]
+],
+cmsid: 2209
+}
+},
+partners: {
+pubstack: "ba9d70eb-c6b0-436a-9f0a-a5a480637ebb",
+google: {
+nonPersonalizeDisplay: false,
+nonPersonalizeVideo: false
+},
+amazon: {
+pubID: "3279",
+definedAdUnits: [ ]
+},
+headerbidding: {
+consent: true,
+definedAdUnits: [ ]
+}
+},
+ampScripts: {
+ampStickyAd: true,
+ampFlyingCarpet: false,
+ampConsent: true
+},
+desktop: {
+emplacements: [
+{
+type: "Pave-Haut2-Desktop",
+pubstack: {
+adUnitName: "Pave-Haut2-Desktop"
+},
+dfp: {
+sizes: [
+[
+"fluid"
+],
+[
+1,
+1
+],
+[
+640,
+360
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "invibes",
+params: {
+placementId: "invibes_middle_femmeactuelle"
+}
+},
+{
+bidder: "teads",
+params: {
+placementId: 105123,
+pageId: 97043
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_Desktop_Inread"
+}
+},
+{
+bidder: "adyoulike",
+params: {
+placement: "a061dfd95cd1dbd9ec9fba452f4a40ad"
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+1,
+1
+],
+[
+640,
+360
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Banniere-Haute"
+},
+type: "Banniere-Haute",
+amazon: {
+sizes: [
+[
+728,
+90
+],
+[
+970,
+250
+],
+[
+970,
+90
+],
+[
+1000,
+90
+],
+[
+1000,
+200
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "0fe84603c2c55b8c675f631de3c96b21"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "00a04554ba5563927fc24f3bdd0232cc"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_atf_mban_desktop",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-desktop-banniere-haute"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-banniere-haute"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "210939",
+size: [
+970,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "210939",
+size: [
+970,
+90
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "210939",
+size: [
+728,
+90
+]
+}
+},
+{
+bidder: "ix",
+labelAll: [
+"home"
+],
+params: {
+siteId: "303213",
+size: [
+1800,
+1000
+]
+}
+},
+{
+bidder: "ix",
+labelAll: [
+"ros"
+],
+params: {
+siteId: "351296",
+size: [
+1800,
+1000
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978430,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978446,
+position: "atf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021247,
+formatId: 77964
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021246,
+formatId: 77964
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-desktop-banniere-haute"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hr-desktop-banniere-haute"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_ban_atf_-_728x90"
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_Desktop_Billboard"
+}
+},
+{
+bidder: "proxistore",
+params: {
+website: "femmeactuelle.fr",
+language: "fr"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+728,
+90
+],
+[
+970,
+90
+],
+[
+970,
+250
+],
+[
+1000,
+90
+],
+[
+1000,
+200
+],
+[
+1800,
+1000
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Banniere-Basse"
+},
+type: "Banniere-Basse",
+amazon: {
+sizes: [
+[
+728,
+90
+],
+[
+970,
+250
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "cccbab249ee8b2d90045b770dd145ccf"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "63034a061bf0053a9cffb2e203a2f816"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_btf_mban_desktop",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-desktop-banniere-basse"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-banniere-basse"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262833",
+size: [
+728,
+90
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978434,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978450,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021247,
+formatId: 71760
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021246,
+formatId: 71760
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_ban_atf_-_728x90"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-desktop-banniere-basse"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-desktop-banniere-basse"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+728,
+90
+],
+[
+970,
+90
+],
+[
+970,
+250
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Haut"
+},
+type: "Pave-Haut",
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "a0652a6ff23b866774bbd0d8380f09b9"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "ad72b0de71fb20b5547d2ece2a2a5f70"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_atf_pave_desktop",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-desktop-pave-haut"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-pave-haut"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+120,
+600
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+160,
+600
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978432,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978448,
+position: "atf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021247,
+formatId: 71759
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021246,
+formatId: 71759
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_ATF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_paveatf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-desktop-pave-haut"
+}
+},
+{
+bidder: "proxistore",
+params: {
+website: "femmeactuelle.fr",
+language: "fr"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+},
+{
+bidder: "teads",
+params: {
+placementId: 137372,
+pageId: 97043
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Bas"
+},
+type: "Pave-Bas",
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+}
+},
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "fff3208b351063817bfd64fadfeb26aa"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "0f0eee1edba8d3f8b67d994711f49224"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_btf_pave_desktop",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-desktop-pave-bas"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-pave-bas"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+120,
+600
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+160,
+600
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978436,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978452,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021247,
+formatId: 71761
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1021246,
+formatId: 71761
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_BTF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_pavebtf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-desktop-pave-bas"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Out-Of-Banner"
+},
+type: "Out-Of-Banner",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+1,
+1
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Haut2"
+},
+type: "Pave-Haut2",
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "a0652a6ff23b866774bbd0d8380f09b9"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "ad72b0de71fb20b5547d2ece2a2a5f70"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_atf_pave_desktop",
+owner: "prisma"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978432,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978448,
+position: "atf"
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_ATF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_paveatf_-_300x250"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Bas2"
+},
+type: "Pave-Bas2",
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "fff3208b351063817bfd64fadfeb26aa"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "0f0eee1edba8d3f8b67d994711f49224"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_btf_pave_desktop",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-desktop-pave-bas2"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-pave-bas2"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978436,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978452,
+position: "btf"
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_BTF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_pavebtf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-desktop-pave-bas2"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas2"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Leader"
+},
+type: "Player-Leader",
+prebid: {
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-player-leader"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-desktop-player-leader"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "4359921"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042225"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "521663",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+maxduration: 30,
+minduration: 0,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277319,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-LEADER",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+],
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Widget"
+},
+type: "Player-Widget",
+prebid: {
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-player-widget"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-desktop-player-widget"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "9118481"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042273"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "521664",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+minduration: 0,
+maxduration: 30,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277321,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-WIDGET",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+],
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Autre"
+},
+type: "Player-Autre",
+prebid: {
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-desktop-player-autre"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-desktop-player-autre"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "9118513"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042177"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "512898",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+minduration: 0,
+maxduration: 30,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277320,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-AUTRE",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+],
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+}
+}
+},
+{
+type: "Native",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+"fluid"
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Native"
+}
+},
+{
+type: "Bouton-Header",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+172,
+57
+]
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Bouton-Header"
+}
+},
+{
+type: "Bouton-Scp",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+150
+]
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Bouton-Scp"
+}
+},
+{
+type: "Native-Dark",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+"fluid"
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Native-Dark"
+}
+}
+]
+},
+mobile: {
+emplacements: [
+{
+pubstack: {
+adUnitName: "Pave-Haut"
+},
+type: "Pave-Haut",
+amp: {
+rtc-config: {
+vendors: {
+criteo: {
+NETWORK_ID: 735,
+LINE_ITEM_RANGES: "0..9:0.01;9..50:0.05"
+},
+aps: {
+PUB_ID: "3279",
+PARAMS: {
+amp: "1"
+}
+},
+IndexExchange: {
+SITE_ID: "610693"
+}
+}
+},
+sizes: [
+[
+300,
+250
+]
+]
+},
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+},
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+1,
+1
+]
+]
+}
+},
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "612ab9bbf3abe97f6848e948122046bb"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "790eed158acfb3686207430081cabf78"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_atf_pave_mobile",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-haut"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-haut"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "invibes",
+labelAll: [
+"ros"
+],
+params: {
+placementId: "invibes_middle_femmeactuelle"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978432,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978448,
+position: "atf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949979,
+formatId: 16659
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949956,
+formatId: 16659
+}
+},
+{
+bidder: "teads",
+labelAll: [
+"ros"
+],
+params: {
+placementId: 105123,
+pageId: 97043
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_ATF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_paveatf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-mobile-pave-haut"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-pave-haut"
+}
+},
+{
+bidder: "proxistore",
+params: {
+website: "femmeactuelle.fr",
+language: "fr"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Bas"
+},
+type: "Pave-Bas",
+amp: {
+rtc-config: {
+vendors: {
+criteo: {
+NETWORK_ID: 735,
+LINE_ITEM_RANGES: "0..9:0.01;9..50:0.05"
+},
+aps: {
+PUB_ID: "3279",
+PARAMS: {
+amp: "1"
+}
+},
+IndexExchange: {
+SITE_ID: "610695"
+}
+}
+},
+sizes: [
+[
+300,
+250
+]
+]
+},
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "9f46566e83dca7deb5abc9fde070e71d"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "1532ba35bee45cd3fb70776509dbc1de"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_btf_pave_mobile",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-bas"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978436,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978452,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949979,
+formatId: 16696
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949956,
+formatId: 16696
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_BTF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_pavebtf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-mobile-pave-bas"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Out-Of-Banner"
+},
+type: "Out-Of-Banner",
+prebid: {
+bids: [
+{
+bidder: "rubicon",
+labellAll: [
+"ros"
+],
+params: {
+accountId: "17912",
+siteId: "198646",
+zoneId: "1841740"
+}
+},
+{
+bidder: "smartadserver",
+labellAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949956,
+formatId: 93349
+}
+},
+{
+bidder: "triplelift",
+labellAll: [
+"ros"
+],
+params: {
+inventoryCode: "Prisma_FemmeActuelle_HDX"
+}
+},
+{
+bidder: "adyoulike",
+labellAll: [
+"ros"
+],
+params: {
+placement: "7447a0d5cdc597a2c01c38fae364d962"
+}
+},
+{
+bidder: "mediasquare",
+labellAll: [
+"ros"
+],
+params: {
+code: "femmeactuelle.fr_rg_btf_banner_mobile",
+owner: "prisma"
+}
+},
+{
+bidder: "ix",
+labellAll: [
+"ros"
+],
+params: {
+siteId: "555411",
+size: [
+300,
+100
+]
+}
+},
+{
+bidder: "ix",
+labellAll: [
+"ros"
+],
+params: {
+siteId: "555411",
+size: [
+320,
+100
+]
+}
+},
+{
+bidder: "ix",
+labellAll: [
+"ros"
+],
+params: {
+siteId: "555411",
+size: [
+320,
+50
+]
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-out-of-banner"
+}
+},
+{
+bidder: "anPrisma",
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-out-of-banner"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+100
+],
+[
+320,
+100
+],
+[
+320,
+50
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Haut2"
+},
+type: "Pave-Haut2",
+amp: {
+rtc-config: {
+vendors: {
+criteo: {
+NETWORK_ID: 735,
+LINE_ITEM_RANGES: "0..9:0.01;9..50:0.05"
+},
+aps: {
+PUB_ID: "3279",
+PARAMS: {
+amp: "1"
+}
+},
+IndexExchange: {
+SITE_ID: "610694"
+}
+}
+},
+sizes: [
+[
+300,
+250
+]
+]
+},
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+1,
+1
+]
+]
+}
+},
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "612ab9bbf3abe97f6848e948122046bb"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "790eed158acfb3686207430081cabf78"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_atf_pave_mobile",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-haut2"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-haut2"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "276779",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978432,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978448,
+position: "atf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949979,
+formatId: 16659
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949956,
+formatId: 16659
+}
+},
+{
+bidder: "teads",
+labelAll: [
+"ros"
+],
+params: {
+placementId: 105123,
+pageId: 97043
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_ATF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_paveatf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-pave-haut2"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Bas2"
+},
+type: "Pave-Bas2",
+amp: {
+rtc-config: {
+vendors: {
+criteo: {
+NETWORK_ID: 735,
+LINE_ITEM_RANGES: "0..9:0.01;9..50:0.05"
+},
+aps: {
+PUB_ID: "3279",
+PARAMS: {
+amp: "1"
+}
+}
+}
+},
+sizes: [
+[
+300,
+250
+]
+]
+},
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+}
+},
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "9f46566e83dca7deb5abc9fde070e71d"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "1532ba35bee45cd3fb70776509dbc1de"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_btf_pave_mobile",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-bas2"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas2"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "317482",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "317482",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978436,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978452,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949979,
+formatId: 16696
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949956,
+formatId: 16696
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_BTF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_pavebtf_-_300x250"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-mobile-pave-bas2"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas2"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Footer"
+},
+type: "Footer",
+amp: {
+rtc-config: {
+vendors: {
+criteo: {
+NETWORK_ID: 735,
+LINE_ITEM_RANGES: "0..9:0.01;9..50:0.05"
+},
+aps: {
+PUB_ID: "3279",
+PARAMS: {
+amp: "1"
+}
+}
+}
+},
+sizes: [
+[
+320,
+100
+],
+[
+320,
+50
+]
+]
+},
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+320,
+100
+],
+[
+320,
+50
+]
+]
+}
+},
+bids: [ ]
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Leader"
+},
+type: "Player-Leader",
+prebid: {
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+},
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-player-leader"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "4359921"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042225"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "521663",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+maxduration: 30,
+minduration: 0,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277319,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-LEADER",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Widget"
+},
+type: "Player-Widget",
+prebid: {
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+},
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-player-widget"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "9118481"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042273"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "521664",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+minduration: 0,
+maxduration: 30,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277321,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-WIDGET",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Autre"
+},
+type: "Player-Autre",
+prebid: {
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+},
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-player-autre"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "9118513"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042177"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "512898",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+minduration: 0,
+maxduration: 30,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277320,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-AUTRE",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Postitiel"
+},
+type: "Postitiel",
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+320,
+480
+]
+]
+}
+},
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "ee3b91b4baefbcb3168eb9a37642b253"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "344cb97ef972d63396fb8db6e09adcfb"
+}
+},
+{
+bidder: "mediasquare",
+params: {
+code: "femmeactuelle.fr_rg_mobile_inter_mobile",
+owner: "prisma"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-postitiel"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-postitiel"
+}
+},
+{
+bidder: "ix",
+labelAll: [
+"home"
+],
+params: {
+siteId: "326016",
+size: [
+320,
+480
+]
+}
+},
+{
+bidder: "ix",
+labelAll: [
+"ros"
+],
+params: {
+siteId: "326017",
+size: [
+320,
+480
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 1145926
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 1145928
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949979,
+formatId: 16661,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 38539,
+pageId: 949956,
+formatId: 16661,
+position: "btf"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"home"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-hp-mobile-postitiel"
+}
+},
+{
+bidder: "anGravity",
+labelAll: [
+"ros"
+],
+params: {
+member: "9124",
+invCode: "femmeactuelle.fr-ros-mobile-postitiel"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+]
+}
+},
+{
+type: "Native",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+"fluid"
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Native"
+}
+},
+{
+type: "Bouton-Header",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+172,
+57
+]
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Bouton-Header"
+}
+},
+{
+type: "Bouton-Scp",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+150
+]
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Bouton-Scp"
+}
+},
+{
+type: "Native-Dark",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+"fluid"
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Native-Dark"
+}
+}
+]
+},
+tablet: {
+emplacements: [
+{
+pubstack: {
+adUnitName: "Banniere-Haute"
+},
+type: "Banniere-Haute",
+adserveur: { },
+amp: { },
+amazon: {
+sizes: [
+[
+728,
+90
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "6773734ac18773fccec7106a5d3e3ff3"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "6ea939f3ae1fc90ba74e7d7488118384"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-banniere-haute"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-banniere-haute"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "218110",
+size: [
+728,
+90
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198576,
+zoneId: 978116,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198576,
+zoneId: 978134,
+position: "atf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274253,
+pageId: 1021234,
+formatId: 71758
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274253,
+pageId: 1021233,
+formatId: 71758
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_CeSoirTV_HDX"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed5850067",
+pos: "cesoirtv_-_d_ban_atf_-_728x90"
+}
+},
+{
+bidder: "proxistore",
+params: {
+website: "cesoirtv.com",
+language: "fr"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+728,
+90
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Banniere-Basse"
+},
+type: "Banniere-Basse",
+adserveur: { },
+amp: { },
+amazon: {
+sizes: [
+[
+728,
+90
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "abed692ad41bf33aa8eb829e342df9a6"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "f8c13771140bd214e23b7b9183af5b8e"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-banniere-basse"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-banniere-basse"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262833",
+size: [
+728,
+90
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978434,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978450,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274257,
+pageId: 1021244,
+formatId: 71760
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274257,
+pageId: 1021243,
+formatId: 71760
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_HDX"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_ban_atf_-_728x90"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+728,
+90
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Haut"
+},
+type: "Pave-Haut",
+adserveur: { },
+amp: { },
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+],
+[
+120,
+600
+],
+[
+160,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "52a98069a5bbc4425c256a33df689baf"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "e5fcf13f6d13b80a0214bf0961af057a"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-haut"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-haut"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262834",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978432,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978448,
+position: "atf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274257,
+pageId: 1021244,
+formatId: 71759
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274257,
+pageId: 1021243,
+formatId: 71759
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_ATF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_paveatf_-_300x250"
+}
+},
+{
+bidder: "proxistore",
+params: {
+website: "femmeactuelle.fr",
+language: "fr"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Bas"
+},
+type: "Pave-Bas",
+adserveur: { },
+amp: { },
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "4e1d3d4059e952645d390e298572e923"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "19af859192b69daed8b9444c30625fb3"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-bas"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+300,
+250
+]
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "262835",
+size: [
+300,
+600
+]
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978436,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978452,
+position: "btf"
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"home"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274257,
+pageId: 1021244,
+formatId: 71761
+}
+},
+{
+bidder: "smartadserver",
+labelAll: [
+"ros"
+],
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274257,
+pageId: 1021243,
+formatId: 71761
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_BTF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_pavebtf_-_300x250"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Out-Of-Banner"
+},
+type: "Out-Of-Banner",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+1,
+1
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Haut2"
+},
+type: "Pave-Haut2",
+adserveur: { },
+amp: { },
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+}
+},
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "52a98069a5bbc4425c256a33df689baf"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "e5fcf13f6d13b80a0214bf0961af057a"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-haut2"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-haut2"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978432,
+position: "atf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978448,
+position: "atf"
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_ATF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_paveatf_-_300x250"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Pave-Bas2"
+},
+type: "Pave-Bas2",
+adserveur: { },
+amp: { },
+amazon: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+},
+prebid: {
+bids: [
+{
+bidder: "adyoulike",
+labelAll: [
+"home"
+],
+params: {
+placement: "4e1d3d4059e952645d390e298572e923"
+}
+},
+{
+bidder: "adyoulike",
+labelAll: [
+"ros"
+],
+params: {
+placement: "19af859192b69daed8b9444c30625fb3"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"home"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-hp-mobile-pave-bas2"
+}
+},
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-pave-bas2"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"home"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978436,
+position: "btf"
+}
+},
+{
+bidder: "rubicon",
+labelAll: [
+"ros"
+],
+params: {
+accountId: 17912,
+siteId: 198646,
+zoneId: 978452,
+position: "btf"
+}
+},
+{
+bidder: "triplelift",
+params: {
+inventoryCode: "Prisma_FemmeActuelle_Prebid_BTF"
+}
+},
+{
+bidder: "onemobile",
+params: {
+dcn: "8a969d0601727280d004843ed960006b",
+pos: "femme_a_-_d_pavebtf_-_300x250"
+}
+},
+{
+bidder: "criteo",
+params: {
+networkId: 735
+}
+}
+],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+250
+],
+[
+300,
+600
+]
+]
+}
+}
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Leader"
+},
+type: "Player-Leader",
+prebid: {
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+},
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-player-leader"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "4359921"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042225"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "521663",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+maxduration: 30,
+minduration: 0,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277319,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-LEADER",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Widget"
+},
+type: "Player-Widget",
+prebid: {
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+},
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-player-widget"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "9118481"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042273"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "521664",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+minduration: 0,
+maxduration: 30,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277321,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-WIDGET",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+]
+}
+},
+{
+pubstack: {
+adUnitName: "Player-Autre"
+},
+type: "Player-Autre",
+prebid: {
+mediaTypes: {
+video: {
+context: "instream",
+playerSize: [
+[
+640,
+480
+]
+],
+mimes: [
+"video/mp4"
+],
+protocols: [
+3,
+6,
+7,
+8
+],
+playbackmethod: [
+2
+],
+maxduration: 30,
+linearity: 1,
+api: [
+1,
+2
+]
+}
+},
+bids: [
+{
+bidder: "anPrisma",
+labelAll: [
+"ros"
+],
+params: {
+member: 8830,
+invCode: "femmeactuelle.fr-ros-mobile-player-autre"
+}
+},
+{
+bidder: "freewheel-ssp",
+params: {
+zoneId: "9118513"
+}
+},
+{
+bidder: "fw_epb_ssp",
+params: {
+zoneId: "11042177"
+}
+},
+{
+bidder: "ix",
+params: {
+siteId: "512898",
+size: [
+640,
+480
+],
+video: {
+mimes: [
+"video/mp4",
+"video/mpeg",
+"application/javascript"
+],
+startdelay: 0,
+minduration: 0,
+maxduration: 30,
+protocols: [
+2,
+3,
+5,
+6
+],
+api: [
+1,
+2
+]
+}
+}
+},
+{
+bidder: "smartadserver",
+params: {
+domain: "https://prg.smartadserver.com",
+siteId: 274258,
+pageId: 1277320,
+formatId: 33226,
+video: {
+protocol: 3,
+startDelay: 1
+}
+}
+},
+{
+bidder: "adot",
+params: {
+placementId: "PIA-FAE-VIDEO-AUTRE",
+video: {
+mimes: [
+"video/mp4"
+],
+protocols: [
+2,
+3,
+6,
+7,
+8
+],
+instreamContext: "pre-roll"
+}
+}
+}
+]
+}
+},
+{
+type: "Native",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+"fluid"
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Native"
+}
+},
+{
+type: "Bouton-Header",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+172,
+57
+]
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Bouton-Header"
+}
+},
+{
+type: "Bouton-Scp",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+[
+300,
+150
+]
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Bouton-Scp"
+}
+},
+{
+type: "Native-Dark",
+prebid: {
+bids: [ ],
+mediaTypes: {
+banner: {
+sizes: [
+"fluid"
+]
+}
+}
+},
+pubstack: {
+adUnitName: "Native-Dark"
+}
+}
+]
+}
+}
