@@ -4,7 +4,7 @@ domain_abbr: "fac",
 domain_consent: "consent.femmeactuelle.fr",
 network_id: 228216569,
 timeout: {
-headerBiddingFetch: 2000,
+headerBiddingFetch: 4000,
 dfpRequest: 5000,
 consent: 3000
 },
